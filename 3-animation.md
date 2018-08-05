@@ -13,70 +13,96 @@ Let's take the shapes we've drawn using the [**p5js library**](https://p5js.org/
 
 <hr/>
 
-## New template project:
-
-<br/>
-
-:star: [**Click here to open a NEW template project for animation examples**](https://glitch.com/edit/#!/canvas-animation) :star:
-
-<br/>
-
-**Instructions (recap):**
-
-  1. Save your own personal copy of the template project by clicking the project's name in the top left corner, and then click "Remix This" in the dropdown menu to make your own personal copy.
-  
-  2. It will load the page again, and generate a name made of *two random words*. This is your own personal copy that nobody else can edit.
-  
-  3. **To see the live app and test it out**, click "Show Live" on the top left and it'll open the web page in another tab.
-
-
-<br/>
-
 ## Challenge 1:
 
-Take a look inside the new Glitch template project you just remixed, and look in the `script.js` file again to see our new JavaScript example code.
+Take the code you wrote to generate shapes in random colors and locations, and ***move it into the draw()*** function (which is at the bottom of the `script.js` file).
 
-***Before anything else***, look at the code at take a guess as to what it will do!
+How did this change your app? Take a look and experiment with some other small changes to your code.
 
-Then ***discuss*** your ideas and, last but not least, open the live page to see what it does.
+<br/>
+
+**Bonus:** Try also using a random number for the size of your shapes!
+
+**Bonus for those with some programming experience:** Create not just one or two, but ***one hundred*** random shapes that get redrawn on every frame of the animation!
 
 <br/>
 
 ## Challenge 2:
 
-First, ***discuss:*** which part of the code controls the speed of the animation? 
+Notice that in your animation, the shapes drawn in previous frames are still visible. In fact, if you let the animation run long enough, or if you're creating lots of shapes on every frame, you'll notice that they will end up overlapping each other!
 
-Then ***change*** one tiny part of the code to make the animation ***slower***, and then change it again to make it ***faster***.
+**Your challenge:** Use the p5js `clear()` function as the very first line inside the `draw()` function, to clear the screen before each animation frame is drawn.
 
+  > **Note:** The `clear()` function does not take any inputs, so you literally type `clear();` with nothing inside the parentheses!
+
+<br/>
+
+How did that change the look of your animation?
+
+<br/>
+
+**Bonus:** Make a prediction *before* you run the code: what will happen if you run the `clear()` function ***after*** the functions that draw your shapes? After discussing your thoughts, try it to see what happens!
 
 <br/>
 
 ## Challenge 3:
 
-So, what if we want just *one individual square* to move across the screen, instead of painting a line across the screen? Luckily, p5js has a function for that names `clear()`, which erases the entire canvas so you can start over with a clean slate.
+The p5js library also provides a simplified way to access the user's mouse coordinates, for easy prototyping of interactive animations!
 
-**Write `clear();` right *above* of the example code**, around line 25 or so. Test it to make sure it works!
+**Your challenge:** For any of the numbers (or variables that contain numbers) being used to control your shapes, ***replace one*** with `mouseX` -- this is a variable that p5js defines for us, which contains the current X coordinate of the user's mouse.
 
-  > **Hint:** You only need to type, literally: `clear();` and it should work. If it doesn't, double-check *where* in the code you put it.
-  
- 
+For example:
+```javascript
+// Be sure to put this code inside the draw() function
+// The first input of the rect() function below uses mouseX; all the other inputs will stay the same
+rect(mouseX, 300, 50, 100);
+```
+
+<br/>
+
+## Challenge 3:
+
+Can you guess what the p5js variable for the current Y coordinate of the user's mouse is? Try it!
+
+**Your challenge:** Make one of your shapes move exactly to wherever your mouse cursor is, using both of the provided mouse coordinate variables!
+
 <br/>
 
 ## Challenge 4:
 
-**Take a guess and discuss:**
-
-  1. Does it matter where/when we use the `clear()` function?
-  
-  2. Why or why not?
-  
-  3. Make a specific prediction: what do you think will happen if we move the `clear()` function to run *after* our example code instead of before it?
-  
-  4. Finally, test your prediction!
+Time for some more experimentation! What would happen if you used the user's mouse coordinates as the value for something else -- the width or height of the shape? The color of the shape? Something else? Try it!
 
 <br/>
 
 ## Challenge 5:
+
+For these next challenges, we'll use a new Glitch project template:
+
+<br/>
+
+:star: [**Click here to open the next template project for another animation example**](https://glitch.com/edit/#!/canvas-animation) :star:
+
+Then be sure to remix it so you'll have your own copy that you can edit!
+
+<br/>
+
+**Your challenge:** Take a look inside the new Glitch template project you just remixed, and look in the `script.js` file again to see our new JavaScript example code.
+
+***Before anything else***, look at the code at take a guess as to what it will do!
+
+Then ***discuss*** your ideas -- and last but not least, then open the live page to see what it does.
+
+<br/>
+
+## Challenge 6:
+
+First, ***discuss:*** which part of the code controls the speed of the animation? 
+
+Then ***change*** one tiny part of the code to make the animation ***slower***, and then change it again to make it ***faster***.
+
+<br/>
+
+## Challenge 7:
 
 Change the code a little bit so the square will move ***vertically***, from the top of the screen down to the bottom.
 
@@ -84,29 +110,13 @@ Change the code a little bit so the square will move ***vertically***, from the 
 
 <br/>
 
-## Challenge 6:
+## Challenge 8:
 
 Change the code a little bit more to make the square move ***diagonally***, from the top-left corner of the canvas across to the bottom-right corner.
 
 <br/>
 
-## Challenge 7:
-
-Here's another cool trick: p5js makes it easy for us to access where the user is clicking their mouse -- they provide two variables named `mouseX` and `mouseY` to represent the coordinates of where your mouse is on the canvas!
-
-First, copy-paste the code below somewhere above or below the example animation code. Second, **delete** the numbers for the x and y coordinate and **replace** them with `mouseX` and `mouseY`:
-
-```javascript
-fill("purple");
-// Replace the appropriate numbers with the mouse coordinate variables:
-ellipse(250, 350, 80, 80);
-```
-
-Test it out! You should see e a purple circle follow your mouse around the canvas!
-
-<br/>
-
-## Challenge 8:
+## Challenge 9:
 
 Create **two** (or more) different shapes of different colors that all move around the screen!
 
@@ -130,7 +140,6 @@ Start working on this problem in stages:
   
 This is a tricky one for beginners, so save this one for later -- as you learn more about programming, you'll be ready to return to this challenge again in the future!
   
-
 
 <br/>
 <hr/>

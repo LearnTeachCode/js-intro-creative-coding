@@ -120,7 +120,7 @@ rect(xPos, yPos, squareWidth, squareWidth);
 
 <br/>
 
-## Challenge 8:
+## Challenge 9:
 
 Let's spice things up with a little *randomness*! Take a look at [the p5js reference page for the `random()` function](https://p5js.org/reference/#/p5/random) to learn more about how it works.
 
@@ -141,7 +141,7 @@ Once you get it working, be sure to refresh the page a couple times to confirm t
 
 <br/>
 
-## Challenge 9:
+## Challenge 10:
 
 Combining what you find in the reference pages for the p5js `fill()` function and the `random()` function, give one of your shapes a ***random color***!
 

@@ -122,18 +122,21 @@ rect(xPos, yPos, squareWidth, squareWidth);
 
 ## Challenge 8:
 
-
 Let's spice things up with a little *randomness*! Take a look at [the p5js reference page for the `random()` function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random) to see how to use it.
 
 <br/>
 
 **Your challenge:** Combine the p5js random number generator function with your code from challenge #3 above to draw a square at a ***random*** location (with randomized coordinates)!
 
+Once you get it working, be sure to refresh the page a couple times to confirm that its location is indeed random!
+
 <br/>
 
 ## Challenge 9:
 
 Combine what you find in the reference pages for the p5js `fill()` function and the `random()` function, give one of your shapes a ***random color***!
+
+Again, be sure to refresh the page to confirm that the color is indeed random. :)
 
 <br/>
 <hr/>

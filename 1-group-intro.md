@@ -40,6 +40,6 @@ text("Liz", 100, 30);
 <br/>
 <hr/>
 
-## :point_right: **Next up: [click here to go to the next set of challenges!](https://github.com/LearnTeachCode/js-intro-drawing/blob/master/2-drawing.md)**
+## :point_right: **Next up: [click here to go to the next set of challenges!](https://github.com/LearnTeachCode/js-intro-creative-coding/blob/master/2-drawing.md)**
 
 We'll work in pairs to solve more practice challenges, getting our feet wet with drawing and animations with Javascript!

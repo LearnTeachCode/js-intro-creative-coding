@@ -35,7 +35,7 @@ We'll be working in pairs to tinker with more code, using functions provided by 
 
 ## Challenge 1:
 
-Copy the example code below and paste it ***right after*** the `createCanvas()` function that's being used on **line 10** in our JavaScript file.
+Copy the example code below and paste it right after where it says to "write your code here" inside a JavaScript comment (comments start with `//` and are ignored by the computer). 
 
 ```javascript
 rect(200, 300, 50, 100);
@@ -43,13 +43,15 @@ rect(200, 300, 50, 100);
 
 Then try ***changing*** those four numbers that draw the rectangle, and ***identify*** what they all do!
 
+<br/>
+
   > Be sure to click **"Show Live"** at the top left of the page to open your live web page and see your amazing rectangle!
 
 <br/>
 
 ## Challenge 2
 
-Take a closer look at the `createCanvas()` function that we're using on line 10. ***Change*** the two numbers and ***identify*** what they both do.
+Take a closer look at the `createCanvas()` function that we're using . ***Change*** the two numbers and ***identify*** what they both do.
 
 Again, remember to check the live web page each time you change the numbers to see what happens!
 
@@ -58,7 +60,7 @@ Again, remember to check the live web page each time you change the numbers to s
 
 ## Challenge 3:
 
-Draw a circles using the `ellipse()` function -- see [the p5js reference page for ellipses](https://p5js.org/reference/#/p5/ellipse) and feel free to copy code examples from there!
+Draw a circle using the `ellipse()` function -- see [the p5js reference page for ellipses](https://p5js.org/reference/#/p5/ellipse) and feel free to copy code examples from there!
 
 <br/>
 
@@ -78,17 +80,16 @@ Let's do this challenge in a few separate steps:
 
 ## Challenge 5:
 
-Draw a second circle and place it ***exactly in the center of the canvas***.
+Draw a circle ***exactly in the center of the canvas***.
 
-  > **Hint:** You'll need to take a look at the numbers used with our `createCanvas()` function on line 10, and do a little bit of mental arithmetic to find the coordinates for the halfway point
+  > **Hint:** You'll need to take a look at the numbers used for our `createCanvas()` function, and do a little bit of  arithmetic to find the coordinates that you need.
 
 <br/>
 
 ## Challenge 6:
 
-Look at [the reference page for the `fill()` function](https://p5js.org/reference/#/p5/fill) and use it to draw ***two*** separate shapes, using ***different colors*** for each one.
+Look at [the reference page for the `fill()` function](https://p5js.org/reference/#/p5/fill) and use it to draw ***two*** separate shapes, using ***two different colors*** for each one.
 
-  > **Remember:** the goal here is to experiment and give yourself permission to *learn by doing* -- and by *failing!* *Over and over again!*
 
 <br/>
 
@@ -96,7 +97,7 @@ Look at [the reference page for the `fill()` function](https://p5js.org/referenc
 
 First, ***take a guess*** as to what will happen when we run the example code below. ***Discuss*** your ideas!
 
-After you've made predictions and discussed them, copy-paste the code somewhere immediately after your previous lines of code, and see what happens:
+After you've made predictions and discussed them, copy-paste the code into your own project and see what happens:
 
 ```javascript
 let squareWidth = 75;
@@ -117,10 +118,26 @@ let squareWidth = 75;
 rect(xPos, yPos, squareWidth, squareWidth);
 ```
 
+<br/>
+
+## Challenge 8:
+
+
+Let's spice things up with a little *randomness*! Take a look at [the p5js reference page for the `random()` function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random) to see how to use it.
+
+<br/>
+
+**Your challenge:** Combine the p5js random number generator function with your code from challenge #3 above to draw a square at a ***random*** location (with randomized coordinates)!
+
+<br/>
+
+## Challenge 9:
+
+Combine what you find in the reference pages for the p5js `fill()` function and the `random()` function, give one of your shapes a ***random color***!
 
 <br/>
 <hr/>
 
-### :point_right: **Next up: [click here to go to the next set of challenges!](#)**
+### :point_right: **Next up: [click here to go to the next set of challenges!](https://github.com/LearnTeachCode/js-intro-creative-coding/blob/master/3-animation.md)**
 
 We'll take our simple shapes and start moving them across the screen, our first intro to animating with code!

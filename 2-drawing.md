@@ -122,7 +122,16 @@ rect(xPos, yPos, squareWidth, squareWidth);
 
 ## Challenge 8:
 
-Let's spice things up with a little *randomness*! Take a look at [the p5js reference page for the `random()` function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random) to see how to use it.
+Let's spice things up with a little *randomness*! Take a look at [the p5js reference page for the `random()` function](https://p5js.org/reference/#/p5/random) to learn more about how it works.
+
+```javascript
+// Example 1 -- You can save the random number to a variable, then use that variable in your shape!
+let randomNum1 = random(200);
+rect(randomNum1, 300, 75, 75);
+
+// Example 2 -- Or you can put the random() function directly inside your shape-drawing function:
+rect(random(200), 300, 75, 75);
+```
 
 <br/>
 
@@ -134,7 +143,7 @@ Once you get it working, be sure to refresh the page a couple times to confirm t
 
 ## Challenge 9:
 
-Combine what you find in the reference pages for the p5js `fill()` function and the `random()` function, give one of your shapes a ***random color***!
+Combining what you find in the reference pages for the p5js `fill()` function and the `random()` function, give one of your shapes a ***random color***!
 
 Again, be sure to refresh the page to confirm that the color is indeed random. :)
 

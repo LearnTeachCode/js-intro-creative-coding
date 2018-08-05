@@ -144,5 +144,6 @@ This is a tricky one for beginners, so save this one for later -- as you learn m
 <br/>
 <hr/>
 
-### :point_right: **Next up: [click here to go to the next set of challenges!](#)**
+### :point_right: **Next up: [click here to go to the next set of challenges!](https://github.com/LearnTeachCode/js-intro-creative-coding/blob/master/4-music.md)**
 
+We'll tinker around with some sound files and synthesizing sounds of our own to make the building blocks of music!

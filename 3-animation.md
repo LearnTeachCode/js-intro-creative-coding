@@ -60,7 +60,7 @@ rect(mouseX, 300, 50, 100);
 
 <br/>
 
-## Challenge 3:
+## Challenge 4:
 
 Can you guess what the p5js variable for the current Y coordinate of the user's mouse is? Try it!
 
@@ -68,13 +68,13 @@ Can you guess what the p5js variable for the current Y coordinate of the user's 
 
 <br/>
 
-## Challenge 4:
+## Challenge 5:
 
 Time for some more experimentation! What would happen if you used the user's mouse coordinates as the value for something else -- the width or height of the shape? The color of the shape? Something else? Try it!
 
 <br/>
 
-## Challenge 5:
+## Challenge 6:
 
 For these next challenges, we'll use a new Glitch project template:
 
@@ -94,7 +94,7 @@ Then ***discuss*** your ideas -- and last but not least, then open the live page
 
 <br/>
 
-## Challenge 6:
+## Challenge 7:
 
 First, ***discuss:*** which part of the code controls the speed of the animation? 
 
@@ -102,7 +102,7 @@ Then ***change*** one tiny part of the code to make the animation ***slower***, 
 
 <br/>
 
-## Challenge 7:
+## Challenge 8:
 
 Change the code a little bit so the square will move ***vertically***, from the top of the screen down to the bottom.
 
@@ -110,13 +110,13 @@ Change the code a little bit so the square will move ***vertically***, from the 
 
 <br/>
 
-## Challenge 8:
+## Challenge 9:
 
 Change the code a little bit more to make the square move ***diagonally***, from the top-left corner of the canvas across to the bottom-right corner.
 
 <br/>
 
-## Challenge 9:
+## Challenge 10:
 
 Create **two** (or more) different shapes of different colors that all move around the screen!
 
